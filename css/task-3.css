@@ -1,0 +1,40 @@
+a {
+  text-decoration: none;
+}
+
+.back-link {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0.04em;
+  color: #020eff;
+  margin-bottom: 16px;
+}
+
+.container {
+  max-width: 408px;
+  padding: 24px;
+  margin: 0 auto;
+}
+
+.input {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  outline: none;
+  min-width: 360px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}

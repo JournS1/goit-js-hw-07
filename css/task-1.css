@@ -24,12 +24,30 @@ a {
 }
 
 .back-link {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 133%;
-  letter-spacing: 0.04em;
-  color: #020eff;
-  margin-bottom: 16px;
+  display: inline-block;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: #4e75ff;
+  font-size: 1.1em;
+  font-weight: 500;
+  border: 1px solid #4e75ff;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease, transform 0.2s ease;
+  margin-bottom: 25px;
+}
+
+.back-link:hover {
+  background-color: #4e75ff;
+  color: #ffffff;
+  border-color: #4e75ff;
+  transform: translateY(-2px);
+}
+
+.back-link:active {
+  background-color: #2c58e0;
+  border-color: #2c58e0;
+  transform: translateY(0);
 }
 
 .categories-list {

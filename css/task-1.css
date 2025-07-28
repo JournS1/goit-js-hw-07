@@ -1,3 +1,8 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #2e2f42;
+}
+
 h2 {
   margin: 0;
 }
@@ -44,7 +49,6 @@ a {
   font-size: 24px;
   line-height: 133%;
   letter-spacing: 0.04em;
-  color: #2e2f42;
   margin-bottom: 16px;
 }
 
@@ -63,5 +67,4 @@ a {
   line-height: 24px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #2e2f42;
 }
